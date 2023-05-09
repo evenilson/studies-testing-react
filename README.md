@@ -1,0 +1,1 @@
+Repository created to study tests in React.js
