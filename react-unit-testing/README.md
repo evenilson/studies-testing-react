@@ -25,9 +25,9 @@
     ```
 
  - Add **transform** in `jest.config.ts`
-   ```json
+   ```ts
    export default {
-      ...othes configurations
+      //...othes configurations
       transform: {
          "^.+\\.(t|j)sx?$": [
             "@swc/jest",
@@ -80,14 +80,14 @@
     from: 
     ```json
     "scripts": {
-      ...othes scripts
+      //...othes scripts
      "test": "jest"
     },
     ```
     to: 
     ```json
     "scripts": {
-      ...
+      //...
      "test": "jest --watchAll"
     },
     ```
